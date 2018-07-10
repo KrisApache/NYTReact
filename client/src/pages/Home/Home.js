@@ -63,7 +63,7 @@ class Home extends Component {
         event.preventDefault();
         this.getArticles();
         this.getSavedArticles();
-        this.setState({ start_year: "", end_year: "", q: "" });
+        // this.setState({ start_year: "", end_year: "", q: "" });
     };
 
     handleInputChange = event => {
